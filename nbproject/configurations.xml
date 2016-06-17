@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Database.h</itemPath>
+      <itemPath>DatabaseModel.h</itemPath>
+      <itemPath>DatabaseModelFactory.h</itemPath>
+      <itemPath>DatabaseService.h</itemPath>
+      <itemPath>LevelDBModel.h</itemPath>
+      <itemPath>databaseservice_constants.h</itemPath>
+      <itemPath>databaseservice_types.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Database.cpp</itemPath>
+      <itemPath>DatabaseModel.cpp</itemPath>
+      <itemPath>DatabaseModelFactory.cpp</itemPath>
+      <itemPath>DatabaseService.cpp</itemPath>
+      <itemPath>DatabaseService_server.cpp</itemPath>
+      <itemPath>LevelDBModel.cpp</itemPath>
+      <itemPath>databaseservice_constants.cpp</itemPath>
+      <itemPath>databaseservice_types.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>leveldb</linkerLibLibItem>
+            <linkerLibLibItem>thrift</linkerLibLibItem>
+            <linkerLibLibItem>thriftnb</linkerLibLibItem>
+            <linkerLibLibItem>event</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatabaseModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseModelFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatabaseModelFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseService.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DatabaseService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseService_server.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LevelDBModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LevelDBModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="databaseservice_constants.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="databaseservice_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="databaseservice_types.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="databaseservice_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Database.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseModel.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DatabaseModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseModelFactory.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DatabaseModelFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseService.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="DatabaseService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DatabaseService_server.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="LevelDBModel.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="LevelDBModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="databaseservice_constants.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="databaseservice_constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="databaseservice_types.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="databaseservice_types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
